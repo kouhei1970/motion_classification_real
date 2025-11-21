@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Videos
+*.avi
+*.mp4
+*.mov
+
+# Generated Data (Numpy arrays, etc.)
+data/
+# Keep the folder structure if needed, but usually data is generated
+# If you want to keep label_map.json, uncomment the next line
+# !data/label_map.json
+
+# Trained Models
+*.pth
+
+# Training Artifacts
+training_history.png
